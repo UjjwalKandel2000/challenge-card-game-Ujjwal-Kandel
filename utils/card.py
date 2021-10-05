@@ -1,16 +1,26 @@
 class Symbol:
     """Class defining a symbol based on colors and icons,"""
 
-    def __init__(self, color):
+    def __init__(self,icon):
         """By default, our surface is empty"""
-        self.color = color
-        self.icon = ["♥", "♦", "♣", "♠"]
+        self.color = ["red", "black"]
+        self.icon = icon
 
-
-s = Symbol("red")
+    def __str__(self):
+        return f" {self.icon}"
 
 
 class Card(Symbol):
-    def __init__(self, color: str):
-        Symbol.__init__(self, color)
-        self.value = ['A, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K']
+    def __init__(self,icon,value):
+        super(Card,self).__init__(icon)
+        self.value = value
+
+    def show(self):
+        print(f"{super().__str__()}, {self.value}")
+
+    def __str__(self):
+        return f"{super().__str__()}, {self.value}"
+
+
+card = Card("d",1)
+print(card)
