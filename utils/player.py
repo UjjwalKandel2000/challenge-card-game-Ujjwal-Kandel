@@ -63,4 +63,3 @@ class Deck:
             self.game_counter += 1
             player.play()
             print(f"counter: {self.game_counter}")
-            sleep(0.5)

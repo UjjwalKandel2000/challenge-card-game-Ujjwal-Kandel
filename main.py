@@ -2,16 +2,14 @@ from utils.player import Deck
 from utils.player import Player
 from utils.game import Board
 
-dck = Deck()
+deck1 = Deck()
 
-ujjwal = Player("Ujjwal", dck)
-aubin = Player("Aubin", dck)
-kasia = Player("kasia", dck)
-alber = Player("Alber", dck)
+p1 = Player("ek", deck1)
+p2 = Player("dui", deck1)
+p3 = Player("tin", deck1)
+p4 = Player("chhar", deck1)
 
-group = [ujjwal, aubin, kasia, alber]
+group = [p1, p2, p3, p4]
 
 board = Board(group)
 board.start_game()
-
-
