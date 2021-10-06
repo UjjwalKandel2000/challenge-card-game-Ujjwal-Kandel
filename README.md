@@ -3,7 +3,7 @@
 # Description
 This project is a part of the [Becode.org AI Bootcamp](https://becode.org/learn/ai-bootcamp/) program. The task is to build a basis for a card game by using OOP in Python. 
 
-![Card game!](https://media3.giphy.com/media/3ov9jUCYetT3GVwcy4/giphy.gif?cid=790b76112ad3044d88c08ee582101f57ec0c4d3f9b551a39&rid=giphy.gif&ct=g)
+![Card game!](https://media3.giphy.com/media/3ov9jUCYetT3GVwcy4/giphy.gif?cid=790b76112ad3044d88c08ee582101f57ec0c4d3f9b551a39&rid=giphy.gif)
 
 Untill now I have implemented:
 - A deck of cards is created .
