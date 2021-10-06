@@ -16,11 +16,9 @@ class Card(Symbol):
         self.value = value
 
     def show(self):
-        print(f"{super().__str__()}, {self.value}")
+        print(f" {self.value} {super().__str__()}")
 
     def __str__(self):
-        return f"{super().__str__()}, {self.value}"
+        return f"{self.value} {super().__str__()} "
 
 
-card = Card("d",1)
-print(card)
