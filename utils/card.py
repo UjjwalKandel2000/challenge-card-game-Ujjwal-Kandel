@@ -1,4 +1,3 @@
-import streamlit as st
 
 class Symbol:
     """Class defining a symbol based on colors and icons,"""
@@ -22,7 +21,6 @@ class Card(Symbol):
 
     def show(self):
         print(f" {self.value} {super().__str__()}")
-        st.write(f" {self.value} {super().__str__()}")
         
 
     def __str__(self):
