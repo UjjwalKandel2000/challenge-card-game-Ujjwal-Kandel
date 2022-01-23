@@ -51,6 +51,17 @@ To run application with streamlit run main.py with below command.
   `streamlit run main.py`
 Application withh open in browser automatically or you can also find application url in terminal like below
 
+# Demo
+
+ <font size="3"> After running the main.py file you will be directed to the streamlit web app where you can see user inputs for player names</font> 
+
+![](img/user_input.PNG)
+
+
+
+<font size="3"> after entering the player names the random cards will be distributed for each players until the deck is empty</font> 
+
+
 # Timeline
 *October 2021*
 
