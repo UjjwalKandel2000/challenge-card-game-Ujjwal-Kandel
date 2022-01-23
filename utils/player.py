@@ -1,3 +1,4 @@
+import streamlit as st
 from time import sleep
 
 from utils.card import Card
@@ -20,6 +21,11 @@ class Player:
         self.turn_count += 1
         self.history_cards.append(self.deck.drawCard())
         print(f" {self.name} {self.turn_count} played : {self.history_cards[-1]} ")
+        
+        original_title = '<span>'+self.name + ' played ' +self.history_cards[-1].get_value()+' '+'</span>'+\
+        '<span style="font-family:Courier; color:'+self.history_cards[-1].get_color()+'; font-size: 20px;">'+self.history_cards[-1].get_icon()+'</span>'
+        st.markdown(original_title, unsafe_allow_html=True)
+
 
     def showHand(self):
         for kaart in self.history_cards:
@@ -38,9 +44,11 @@ class Deck:
         self.game_counter = 0
 
     def fill_deck(self):
+        i = 0
         for s in ['♥', '♦', '♣', '♠']:
-            for v in range(1, 14):
+            for v in  ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"]:
                 self.cards.append(Card(s, str(v)))
+                i = i+1
 
     def shuffle(self):
         for i in range(len(self.cards) - 1, 0, -1):
