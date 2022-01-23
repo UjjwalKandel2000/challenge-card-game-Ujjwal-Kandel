@@ -49,7 +49,12 @@ Card Game Challenge
 To run application with streamlit run main.py with below command.
 
   `streamlit run main.py`
-Application withh open in browser automatically or you can also find application url in terminal like below
+
+Application will open in browser automatically or you can also find application url in terminal like below
+
+![](img/app_url.PNG)
+
+
 
 # Demo
 
