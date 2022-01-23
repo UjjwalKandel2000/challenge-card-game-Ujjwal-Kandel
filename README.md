@@ -1,13 +1,13 @@
 # challenge-card-game-Ujjwal-Kandel
 
 # Description
-This project is a part of the [Becode.org AI Bootcamp](https://becode.org/learn/ai-bootcamp/) program. The task is to build a basis for a card game by using OOP in Python. 
+This project is a part of the [Becode.org AI Bootcamp](https://becode.org/learn/ai-bootcamp/) program. The challange is to build a basis for a card game by using OOP in Python. 
 
 
 Untill now I have implemented:
 - A deck of cards is created .
 - Cards are shuffled and distributed among  players.
-
+- A running streamlit web app
 
 
 # Objectives
@@ -20,6 +20,7 @@ Card Game Challenge
 │README.md      :explains the project
 │main.py        : on the *main.py* file are player,deck and board objects are created in order to run the program
 |                 Python script file necessary to initialize the game
+|requirements.txt : all the libraries that are required to run this program
 │   
 │__   
 │   utils         :directory contains all modules required to run the game
@@ -33,11 +34,22 @@ Card Game Challenge
 ```
 
 # Installation
-`git clone` this repository into your local environment.
-use python 3.0 or above to prevent any inconvenience
+- Clone this repository into your local environment with below command-
+
+  `git clone https://github.com/ujjwalk00/challenge-card-game-Ujjwal-Kandel.git`
+
+- Create python virtual environment
+
+- Install all the required library with below command
+
+  `pip install -r requirements.txt`
 
 # Usage
 
+To run application with streamlit run main.py with below command.
+
+  `streamlit run main.py`
+Application withh open in browser automatically or you can also find application url in terminal like below
 
 # Timeline
 *October 2021*
@@ -48,5 +60,11 @@ This is the first project where I apply my current knowledge of OOP concepts int
 
 # Personal situation
 
-I am learning at becode AI bootcamp so i can dive into the world of Data Science.
-My experience with this project: I know the OOP concept of Java and C++ aswell so understanding the logic was simple for me but I still make some syntax errors because I unintentionally continue to work with the class structure of Java, but I am able to distinguish it over time and practice
+This is a group project given to us at [BeCode](https://becode.org/)
+
+Here is how you can contact me :
+
+[Ujjwal Kandel](https://www.linkedin.com/in/ujjwal-kandel-10743a1bb/)
+
+ujjwalkandel2000@gmail.com
+
